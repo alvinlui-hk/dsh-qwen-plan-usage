@@ -24,6 +24,26 @@ Use `--profile web` instead of `--profile desktop` if that is the profile with t
 
 Then restart DeepSeek Harness. Open **Settings → Models**, scroll to **Qwen Token Plan usage**, and choose **Sign in to Qwen Cloud**.
 
+## 中文安裝
+
+喺 DeepSeek Harness 對話貼上：
+
+```text
+請把這個 DSH 插件安裝到目前 profile 並啟用，不要登入、不要讀取任何 Cookie 或 API Key：
+https://github.com/alvinlui-hk/dsh-qwen-plan-usage.git
+
+如果 github: 安裝因為找不到 git 而失敗，改裝這個不需要 git 的壓縮包：
+https://codeload.github.com/alvinlui-hk/dsh-qwen-plan-usage/tar.gz/refs/heads/main
+
+裝完後重啟 DSH，到「設定 → 模型」最底找「Qwen Token Plan 用量」。
+```
+
+沒有 Git 的電腦也可以直接執行：
+
+```text
+dsh plugin --profile desktop add https://codeload.github.com/alvinlui-hk/dsh-qwen-plan-usage/tar.gz/refs/heads/main
+```
+
 ## Requirements
 
 - DeepSeek Harness `0.2.1` or later, with a Web UI profile.
