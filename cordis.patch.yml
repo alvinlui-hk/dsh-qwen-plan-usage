@@ -1,0 +1,3 @@
+- insert:
+    - id: qwen-plan-usage
+      name: '@local/dsh-qwen-plan-usage'
