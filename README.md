@@ -8,10 +8,16 @@ This is an unofficial plugin. It is not affiliated with Alibaba, Qwen, or DeepSe
 
 ## Install
 
-From a DSH session, ask the agent to install this Git repository, or run:
+From a DSH session, ask the agent to install this repository, or run:
 
 ```text
 dsh plugin --profile desktop add github:alvinlui-hk/dsh-qwen-plan-usage
+```
+
+That command needs `git` on `PATH`. If `git` is not installed, use the tarball instead. It does not need Git:
+
+```text
+dsh plugin --profile desktop add https://codeload.github.com/alvinlui-hk/dsh-qwen-plan-usage/tar.gz/refs/heads/main
 ```
 
 Use `--profile web` instead of `--profile desktop` if that is the profile with the Web UI.
