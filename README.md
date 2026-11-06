@@ -1,5 +1,7 @@
 # Qwen Token Plan usage for DeepSeek Harness
 
+> **Superseded.** This plugin has been merged into [dsh-coding-plan-usage](https://github.com/alvinlui-hk/dsh-coding-plan-usage), which shows Qwen Token Plan, Z.ai GLM Coding Plan, and MiniMax Coding Plan usage in one place and migrates your existing Qwen sign-in automatically. New installs should use that repository.
+
 Show your [Qwen Cloud](https://home.qwencloud.com) Token Plan usage in DeepSeek Harness. The card appears at the bottom of **Settings → Models**.
 
 The inference API key cannot read plan quota. Sign-in opens a dedicated Edge or Chrome window, not your everyday browser. After you sign in, the plugin reads only `qwencloud.com` cookies and shows the quota Qwen actually returns: monthly, 5-hour, and weekly figures appear only when that field is present.
